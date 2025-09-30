@@ -226,19 +226,3 @@ examples/
 LICENSE
 README.md
 ```
-
----
-
-## How to cite
-
-If this code helps your work, please cite the repository:
-
-```bibtex
-@misc{LexuZhao_RichardsonBCS_2025,
-  author       = {Lexu Zhao},
-  title        = {Richardson–BCS Solver \& Correlators (Python)},
-  year         = {2025},
-  howpublished = {\url{https://github.com/LexuZhao/richardson-bcs-exact/tree/main}},
-  note         = {Exact Richardson roots, Gaudin matrix, and pair--pair correlators with robust continuation}
-}
-```
