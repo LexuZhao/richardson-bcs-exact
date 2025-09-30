@@ -230,7 +230,7 @@ If this code helps your work, please cite the repository:
   author       = {Lexu Zhao},
   title        = {Richardson–BCS Solver \& Correlators (Python)},
   year         = {2025},
-  howpublished = {\url{https://github.com/LexuZhao/richardson-bcs-exact/tree/main},
+  howpublished = {\url{https://github.com/LexuZhao/richardson-bcs-exact/tree/main}},
   note         = {Exact Richardson roots, Gaudin matrix, and pair--pair correlators with robust continuation}
 }
 ```
