@@ -7,7 +7,7 @@ A robust Python implementation of the **reduced BCS (Richardson) model** that:
 * and computes **pair–pair correlators**  $\langle A^\dagger_{\mathbf{k}} A_{\mathbf{k}'} \rangle$
   on square lattices up to at least (L=20) with strong numerical safeguards.
 
-This repository is designed to be **plug-and-play** for generating trustworthy benchmarks and datasets for many-body physics and ML.
+This repository is designed to be **plug-and-play** for generating trustworthy benchmarks and datasets for many-body physics.
 
 ---
 
