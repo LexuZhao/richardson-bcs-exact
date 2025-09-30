@@ -101,8 +101,7 @@ This is what the code evaluates on both the representative ${\mathbf{k},-\mathbf
 ## Install
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https:https://github.com/LexuZhao/richardson-bcs-exact/tree/main.git
 
 # optional virtualenv
 python -m venv .venv && source .venv/bin/activate
@@ -227,11 +226,11 @@ README.md
 If this code helps your work, please cite the repository:
 
 ```bibtex
-@misc{YourName_RichardsonBCS_2025,
+@misc{LexuZhao_RichardsonBCS_2025,
   author       = {Lexu Zhao},
   title        = {Richardson–BCS Solver \& Correlators (Python)},
   year         = {2025},
-  howpublished = {\url{https://github.com/<your-username>/<your-repo>}},
+  howpublished = {\url{[https://github.com/<your-username>/<your-repo>](https://github.com/LexuZhao/richardson-bcs-exact/tree/main)}},
   note         = {Exact Richardson roots, Gaudin matrix, and pair--pair correlators with robust continuation}
 }
 ```
