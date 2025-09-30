@@ -9,6 +9,14 @@ A robust Python implementation of the **reduced BCS (Richardson) model** that:
 
 This repository is designed to be **plug-and-play** for generating trustworthy benchmarks and datasets for many-body physics.
 
+### Why this repo?
+
+Superconductivity arises when electrons form **Cooper pairs**—two time-reversed states ${\mathbf{k},-\mathbf{k}}$ that bind and move without resistance. Textbook BCS gives a powerful **mean-field** picture, but it is still approximate. The **reduced BCS (Richardson) model** is remarkable because it is **exactly solvable**: the many-body eigenstates are built from a set of complex **rapidities** (E_\alpha) that satisfy coupled “Bethe–Richardson” equations. Once these $E_\alpha$ are known, key observables follow algebraically—most notably the **pair–pair correlator**
+$\langle A_{\mathbf{k}}^{\dagger}A_{\mathbf{k}'}\rangle$, obtained via the **Gaudin (Jacobian) matrix**.
+
+This repository provides a clean, reliable path from **Hamiltonian $\rightarrow$ rapidities $\rightarrow$ correlators** on realistic $L\times L$ lattices. It handles degeneracies and near-poles with complex-safe residuals, continuation in (g), multiplicity-aware seeding, and damped Newton steps—so you can study pairing structure, compare finite-size effects, and produce trustworthy, reproducible results.
+
+
 ---
 
 ## Intuition & Background (for newcomers)
